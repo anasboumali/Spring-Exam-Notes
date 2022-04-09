@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+</head>
+<body>
+
+<p th:text="${contextPath}"></p>
+<p th:text="${userPrincipal}"></p>
+<p th:text="${locale}"></p>
+
+<p th:text="${person.firstName + ' ' + person.lastName + ' his age : ' + person.age}"></p>
+
+</body>
+</html>
